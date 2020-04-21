@@ -1,0 +1,78 @@
+#############################################
+#											#
+#    Advanced Whitelist (BETA) by Goncii    #
+#								            #
+#               Version: 1.0                #
+#											#
+#           VARIABLES (ONLY HERE)           #
+#											#
+#        %player  -> Player Name            #
+#		 %list    -> Whitelist List         #
+#############################################
+
+
+
+##################################################################
+#									 						     #
+#						 KICK MESSAGE:		 					 #
+#									 						     #
+#         To have more lines you need to add this: \n.           #
+#									 						     #
+#                        Examples:                               #
+#															     #
+# &b&lServerName \n &CServer is whitelisted \n &7play.example.us # 
+# 		 													     #
+##################################################################
+
+kickMessage: "&cServer is currently whitelisted!"
+
+
+#############################################
+#											#
+#              HELP COMMAND                 #
+#											#
+#############################################
+
+
+
+help:
+  - "&6&m----------------------------------------------"
+  - "&b&lAdvanced &9&lWhitelist"
+  - ""
+  - "&c/whitelist on &7- &aEnables the whitelist"
+  - "&c/whitelist off &7- &aDisables the whitelist"
+  - "&c/whitelist add <player> &7- &aAdd a player to the whitelist"
+  - "&c/whitelist remove <player> &7- &aRemove a player from the whitelist"
+  - "&c/whitelist list &7- &aList of whitelisted players"
+  - "&6&m----------------------------------------------" 
+
+#############################################
+#											#
+#                 MESSAGES                  #
+#											#
+#############################################
+
+
+
+permission: "&cYou have no permission to use this command!"
+reload: "&bReloaded the whitelist!"
+turnOff: "&cTurned off the whitelist!"
+turnOn: "&aTurned on the whitelist!"
+arleadyOn: "&bThe whitelist is arleady enabled!"
+arleadyOff: "&bThe whitelist is arleady disabled!"
+incorrectUse: "&cIncorrect use!"
+
+#############################################
+#											#
+#              PLAYERS CONFIG               #
+#											#
+#############################################
+
+
+
+
+list: "&fWhitelisted players &7(&3%amount&7): &a%list"
+add: "&aAdded &2%player &ato the &fwhitelist!"
+arleadyAdded: "&c[Error]&3 %player &bis already added to the &fwhitelist!"
+remove: "&5Removed &7%player &5from the &fwhitelist!"
+unknownPlayer: "&c[Error] &bPlayer &9%player &bis not on whitelist!"

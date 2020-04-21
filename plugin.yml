@@ -1,0 +1,36 @@
+name: AdvancedWhitelist
+version: 1.0.2
+main: rename.goncii.Main
+author: Goncii
+
+commands:
+  wl:
+  whitelist:
+permissions:
+  whitelist.*:
+    default: op
+    children:
+      whitelist.on: true
+      whitelist.off: true
+      whitelist.add: true
+      whitelist.remove: true
+      whitelist.reload: true
+      whitelist.list: true
+      whitelist.use: true
+      whitelist.bypass: true
+  whitelist.on:
+    default: op
+  whitelist.off:
+    default: op
+  whitelist.add:
+    default: op
+  whitelist.remove:
+    default: op
+  whitelist.reload:
+    default: op
+  whitelist.list:
+    default: op
+  whitelist.use:
+    default: op
+  whitelist.bypass:
+    default: op
