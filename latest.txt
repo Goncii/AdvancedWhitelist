@@ -1,4 +1,4 @@
-Test 1.0.2
+1.0.0
 https://www.spigotmc.org/resources/loquetetoquealsubirelplugin/
 - Plugin have been released,
   the plugin is a full rework
